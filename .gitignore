@@ -1,0 +1,19 @@
+# Build output
+build/
+*.app
+
+# Xcode
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+DerivedData/
+*.moved-aside
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp icon files
+AppIcon.iconset/
+icon_rounded.png
