@@ -17,3 +17,10 @@ DerivedData/
 # Temp icon files
 AppIcon.iconset/
 icon_rounded.png
+
+# Local artifacts
+AutoScreenSnap_v*.zip
+*.tiff
+
+# Local screenshots (often dragged in for debugging)
+*.png
