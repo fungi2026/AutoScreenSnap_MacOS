@@ -2,7 +2,7 @@
 
 A lightweight macOS menu bar app that automatically captures screenshots of your active window at a set interval — perfect for creating timelapse showreels of your work.
 
-![Auto Screen Snap icon](docs/icon.png)
+<img src="docs/icon_readme.png" width="96" alt="Auto Screen Snap app icon" />
 
 ## Features
 
