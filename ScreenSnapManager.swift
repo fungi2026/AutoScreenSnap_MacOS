@@ -9,7 +9,7 @@ final class ScreenSnapManager {
         return desktop.appendingPathComponent("screensnap")
     }()
 
-    private static let captureInterval: TimeInterval = 5
+    var captureInterval: TimeInterval = 5
     private static let jpegQuality: CGFloat = 0.75
     private static let maxImageWidth: CGFloat = 1920
 
@@ -46,7 +46,7 @@ final class ScreenSnapManager {
             guard self?.isRunning == true else { return }
             self?.takeSnapshot(preview: false)
         }
-        let t = Timer(timeInterval: Self.captureInterval, repeats: true) { [weak self] _ in
+        let t = Timer(timeInterval: captureInterval, repeats: true) { [weak self] _ in
             self?.takeSnapshot(preview: false)
         }
         RunLoop.main.add(t, forMode: .common)
