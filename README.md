@@ -10,7 +10,7 @@ A lightweight macOS menu bar app that automatically captures screenshots of your
 - **Menu bar app** — lives quietly in your menu bar, no Dock icon
 - **Auto-organises saves** — `~/Desktop/screensnap/{AppName}/` created automatically
 - **JPEG output** — compressed, timestamped files: `AppName_2026-03-06_13-45-22.jpg`
-- **5-second interval** — ideal for timelapse showreels
+- **Interval selector** — choose **5s / 15s / 30s** from the menu
 - **Test Screenshot** — one-shot capture to preview instantly
 
 ## Requirements
@@ -38,7 +38,8 @@ On first run, grant **Screen Recording** permission when prompted — this is re
 1. Launch `AutoScreenSnap.app`
 2. Switch to the app you want to capture
 3. Click the camera icon in the menu bar → **Start Capturing**
-4. Screenshots save automatically every 5 seconds
+4. (Optional) Set **Interval → 5s / 15s / 30s**
+5. Screenshots save automatically at your chosen interval
 5. Click **Open Snapshots Folder** to browse your captures
 
 ## Save Location
